@@ -17,7 +17,7 @@ P = \prod_{i=1}^{S} p(x = C(i)) \quad \text{with} \quad p(x = C(i)) = \frac{n_i}
 
 Where:  
 - *S* is the total number of categories for the attribute,  
-- *n_i* is the count of entries in category *\(C(i)\)*,  
+- *n_i* is the count of entries in category *C(i)*,  
 - *N* is the total number of entries.
 
 ---
@@ -26,28 +26,13 @@ Where:
 
 ### Case 1: Equitable Distribution
 - All categories have **equal frequency** (\(n_1 = n_2 = ... = n_S = a\)).
-- **Lemma:** For two equitable distributions of the same attribute with \(S_1 < S_2\) categories:
-
-\[
-P_1 > P_2
-\]
-
-- **Conclusion:** Increasing the number of equally distributed categories **decreases \(P\)**, reflecting a lower level of anonymity.
+- **Lemma:** For two equitable distributions of the same attribute with *S_1 < S_2* categories:
+*P_1 > P_2*
 
 ### Case 2: Non-Equitable Distribution
 - Categories have **unequal frequencies**.
-- **Lemma:** For two non-equitable distributions of the same attribute with \(S_1 < S_2\) categories:
-
-\[
-P_1 > P_2
-\]
-
-- **Proof Approach:**
-  1. Use recurrence on the number of categories \(k\).  
-  2. Compare the product of relative frequencies for sequences of length \(k\) and \(k+1\).  
-  3. Show that \(P\) strictly decreases as categories are added or redistributed, regardless of frequency skew.
-
-- **Conclusion:** Even with non-uniform distributions, increasing the number of categories or skewing the frequency distribution reduces \(P\), confirming the factor’s sensitivity to attribute granularity.
+- **Lemma:** For two non-equitable distributions of the same attribute with *S_1 < S_2* categories:
+*P_1 > P_2*
 
 ---
 
