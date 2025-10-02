@@ -14,6 +14,7 @@ The Stabilizer Factor, denoted as *P*, **adjusts the Shannon index to distinguis
 \[
 P = \prod_{i=1}^{S} p(x = C(i)) \quad \text{with} \quad p(x = C(i)) = \frac{n_i}{N}, \quad \sum_{i=1}^{S} n_i = N
 \]
+![Stabilizer Factor](images/formule.png)
 
 
 Where:  
