@@ -4,7 +4,7 @@
 This repository accompanies the paper **"Federated Clouds: A New Metric for Measuring the Quality of Data Anonymization"** (Gaye et al., 2024, LNCS vol. 14757, Springer).  
 [Link to the paper](https://doi.org/10.1007/978-3-031-62488-9_2)
 
-
+**The stabilizer factor** *P* adjusts the Shannon index by distinguishing between identifiers and evenly distributed categories, ensuring a robust evaluation of anonymization quality.
 
 ---
 
