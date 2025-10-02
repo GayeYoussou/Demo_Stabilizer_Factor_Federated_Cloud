@@ -11,9 +11,6 @@ The Stabilizer Factor, denoted as *P*, **adjusts the Shannon index to distinguis
 
 **Definition.** Let *p* be the relative frequency that represents the probability that a value is in category *C(i)*. The stabilizer factor *P* is defined as follows:
 
-\[
-P = \prod_{i=1}^{S} p(x = C(i)) \quad \text{with} \quad p(x = C(i)) = \frac{n_i}{N}, \quad \sum_{i=1}^{S} n_i = N
-\]
 ![Stabilizer Factor](images/formule.png)
 
 
@@ -27,14 +24,14 @@ Where:
 ## 🔬 Demonstration Cases
 
 ### Case 1: Equitable Distribution
-- All categories have **equal frequency** *n_1 = n_2 = ... = n_S = 1*.
-- **Lemma:** For two equitable distributions of the same attribute with *S_1 < S_2* categories:
-*P_1 > P_2*
+- All categories have **equal frequency** *n1 = n2 = ... = nS = 1*.
+- **Lemma:** For two equitable distributions of the same attribute with *S1 < S2* categories:
+*P1 > P2*
 
 ### Case 2: Non-Equitable Distribution
 - Categories have **unequal frequencies**.
-- **Lemma:** For two non-equitable distributions of the same attribute with *S_1 < S_2* categories:
-*P_1 > P_2*
+- **Lemma:** For two non-equitable distributions of the same attribute with *S1 < S2* categories:
+*P1 > P2*
 
 ---
 
