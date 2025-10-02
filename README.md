@@ -15,8 +15,6 @@ The Stabilizer Factor, denoted as *\(P\)*, **adjusts the Shannon index to distin
 P = \prod_{i=1}^{S} p(x = C(i)) \quad \text{with} \quad p(x = C(i)) = \frac{n_i}{N}, \quad \sum_{i=1}^{S} n_i = N
 \]
 
-`P = Product_{i=1}^{S} p(x = C(i))`
-
 
 Where:  
 - *S* is the total number of categories for the attribute,  
