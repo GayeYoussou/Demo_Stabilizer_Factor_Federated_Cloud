@@ -26,7 +26,7 @@ Where:
 ## 🔬 Demonstration Cases
 
 ### Case 1: Equitable Distribution
-- All categories have **equal frequency** (\(n_1 = n_2 = ... = n_S = a\)).
+- All categories have **equal frequency** *n_1 = n_2 = ... = n_S = 1*.
 - **Lemma:** For two equitable distributions of the same attribute with *S_1 < S_2* categories:
 *P_1 > P_2*
 
