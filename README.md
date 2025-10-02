@@ -11,12 +11,12 @@ The Stabilizer Factor, denoted as *P*, **adjusts the Shannon index to distinguis
 
 **Definition.** Let *p* be the relative frequency that represents the probability that a value is in category *C(i)*. The stabilizer factor *P* is defined as follows:
 
-![Stabilizer Factor](images/formule.png)
+![Stabilizer Factor](images/formula.png)
 
 
 Where:  
 - *S* is the total number of categories for the attribute,  
-- *n_i* is the count of entries in category *C(i)*,  
+- *ni* is the count of entries in category *C(i)*,  
 - *N* is the total number of entries.
 
 ---
