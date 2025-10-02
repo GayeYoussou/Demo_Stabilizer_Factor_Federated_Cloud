@@ -5,11 +5,11 @@ This repository accompanies the paper **"Federated Clouds: A New Metric for Meas
 [Link to the paper](https://doi.org/10.1007/978-3-031-62488-9_2)
 
 It presents the **mathematical demonstration of the Stabilizer Factor**.
-The Stabilizer Factor, denoted as *\(P\)*, **adjusts the Shannon index to distinguish between identifiers and evenly distributed categories**, providing a rigorous and robust evaluation of anonymization quality in categorical datasets. 
+The Stabilizer Factor, denoted as *P*, **adjusts the Shannon index to distinguish between identifiers and evenly distributed categories**, providing a rigorous and robust evaluation of anonymization quality in categorical datasets. 
 
 ---
 
-**Definition.** Let *p* be the relative frequency that represents the probability that a value is in category *C(i)*. The stabilizer factor P is defined as follows:
+**Definition.** Let *p* be the relative frequency that represents the probability that a value is in category *C(i)*. The stabilizer factor *P* is defined as follows:
 
 \[
 P = \prod_{i=1}^{S} p(x = C(i)) \quad \text{with} \quad p(x = C(i)) = \frac{n_i}{N}, \quad \sum_{i=1}^{S} n_i = N
